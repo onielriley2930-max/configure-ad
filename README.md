@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Active Directory
 - Azure (Cloud)to create Virtual Machines.
 - Microsoft Data center (host)
-- Step 4
+- 
 
 <h2>Deployment and Configuration Steps</h2>
 
