@@ -116,5 +116,30 @@ The server will restart — that’s normal!
 
  Step 6: You Now Have Active Directory!
 		Log back in using:.
+			•	Open Server Manager → Tools → Active Directory Users and Computers
+	•	You can now:
+	•	Add users
+	•	Create groups
+	•	Make Organizational Units (OUs)
+
+
+
+ Step 7: (Optional) Join Other VMs
+
+If you create another Windows VM:
+	•	Go to System → Rename this PC → Domain
+	•	Enter mycompany.local
+	•	Use your admin login
+	•	Restart — now it’s part of your domain.
+
+⸻
+
+ In Short
+You:
+		Made a cloud computer (VM)
+		Installed Windows Server
+		Added the Active Directory feature
+		Created your own domain
+		Can now add users and computers to it
 </p>
 <br />
