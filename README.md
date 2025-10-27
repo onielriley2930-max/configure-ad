@@ -65,6 +65,56 @@ you let Microsoft’s Azure servers handle it all safely online.
 <img src="https://imgur.com/tOxEc11.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ How to Install Active Directory in Azure (Simple Steps)
+
+ Step 1: Sign in to Azure
+		Go to portal.azure.com
+		Log in with your Microsoft account
+		Make sure you have an active subscription
+
+
+
+ Step 2: Create a Virtual Machine (VM)
+	1.	Click Create a resource → Virtual Machine
+	2.	Choose:
+		Windows Server 2022 (or 2019)
+		Name it something like ADServer
+		Allow RDP (port 3389) so you can log in
+	3.	Click Review + Create → Create
+
+This gives you a computer in the cloud.
+
+
+
+ Step 3: Connect to the VM
+		When it’s done, go to the VM page
+		Click Connect → RDP
+		Download and open the file
+		Log in with the username and password you created
+
+Now you’re inside your Windows Server.
+
+
+
+ Step 4: Install Active Directory
+		Open Server Manager (it opens automatically)
+		Click Add Roles and Features
+		Choose Active Directory Domain Services (AD DS)
+		Click Next → Install
+
+
+
+ Step 5: Set Up the Domain
+		After install, click Promote this server to a domain controller
+		Choose Add a new forest
+		Type your domain name (like mycompany.local)
+		Click Next → Install
+
+The server will restart — that’s normal!
+
+
+
+ Step 6: You Now Have Active Directory!
+		Log back in using:.
 </p>
 <br />
