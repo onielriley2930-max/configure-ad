@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Active Directory
 - Azure (Cloud)to create Virtual Machines.
 - Microsoft Data center (host)
-- 
+  
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -132,7 +132,7 @@ If you create another Windows VM:
 	•	Use your admin login
 	•	Restart — now it’s part of your domain.
 
-⸻
+
 
  In Short
 You:
